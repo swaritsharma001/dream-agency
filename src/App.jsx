@@ -1,4 +1,4 @@
-import './App.css';
+ import './App.css';
 import Nav from "./components/nav.jsx";
 import About from "./components/about.jsx";
 import { TextAnimate } from "@/components/magicui/text-animate";
