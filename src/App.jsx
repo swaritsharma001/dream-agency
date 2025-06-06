@@ -4,7 +4,6 @@ import About from "./components/about.jsx";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { MarqueeDemo } from "@/components/marqu.jsx";
-import { Analytics } from "@vercel/analytics";
 const App = () => {
   const texts = ["Motion Designer", "Web Developer", "Script Writer"]
 
@@ -113,7 +112,7 @@ const App = () => {
 
       <About />
       <MarqueeDemo />
-     <Analytics/>
+     
     </section>
   );
 };
