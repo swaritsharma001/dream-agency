@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 	<BrowserRouter>
 	<Routes>
 	<Route path="/" element={<App/>}/>
-		<Route path="/privateuploadingpathsbsbsbnxnxbxbcbbsjsjjdjsjjsnxnx" element={<VideoUpload/>}/>
+		<Route path="/pvtuploadingfiles" element={<VideoUpload/>}/>
 		<Route path="*" element={<App/>} />
 	</Routes>
 	</BrowserRouter>
